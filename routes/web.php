@@ -16,6 +16,26 @@
 //});
 
 Route::get('/', [
-    'as' => 'home.index',
-    'uses' => 'HomeController@index'
+    'as' => 'auth.login',
+    'uses' => 'AuthController@showLogin'
+]);
+
+Route::post('/auth/login', [
+    'as' => 'auth.login',
+    'uses' => 'AuthController@postLogin'
+]);
+
+Route::get('/ceo/homepage', [
+    'as' => 'ceo.homepage',
+    'uses' => 'CeoController@homepage'
+]);
+
+Route::get('/manager/homepage', [
+    'as' => 'manager.homepage',
+    'uses' => 'ManagerController@homepage'
+]);
+
+Route::get('/employee/homepage', [
+    'as' => 'employee.homepage',
+    'uses' => 'EmployeeController@homepage'
 ]);
