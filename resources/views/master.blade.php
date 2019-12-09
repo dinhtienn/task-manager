@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="/dist/img/AdminLTELogo.png"/>
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
