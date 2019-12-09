@@ -129,6 +129,9 @@
     <script src="{{ asset('/js/app.js') }}"></script>
     <script src="{{ asset('/js/custom.js') }}"></script>
 
+    <script src="/js/app.js"></script>
+    <script src="/js/custom.js"></script>
+
     @stack('after-js')
 </body>
 </html>
