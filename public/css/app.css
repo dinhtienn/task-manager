@@ -57030,5 +57030,16 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .chart {
   overflow: hidden;
   position: relative;
+}#btn-logout {
+  position: relative;
+  padding-right: 25px;
+}
+#btn-logout i {
+  position: absolute;
+  top: 25%;
+  right: 5px;
 }
 
+.nav-link:hover {
+  background: rgba(179, 179, 179, 0.1) !important;
+}

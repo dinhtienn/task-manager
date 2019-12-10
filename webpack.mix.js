@@ -14,7 +14,16 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css');
 
-mix.js('resources/js/custom.js', 'public/js');
+mix.sass('resources/sass/ceo.scss', 'public/css').options({
+    processCssUrls: false
+});
+mix.sass('resources/sass/manager.scss', 'public/css').options({
+    processCssUrls: false
+});
+mix.sass('resources/sass/employee.scss', 'public/css').options({
+    processCssUrls: false
+});
 
 mix.copyDirectory('resources/images/dist', 'public/dist');
+mix.copyDirectory('resources/js/dist', 'public/dist/js');
 mix.copyDirectory('resources/plugins', 'public/plugins');

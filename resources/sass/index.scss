@@ -1,0 +1,14 @@
+#btn-logout {
+  position: relative;
+  padding-right: 25px;
+
+  i {
+    position: absolute;
+    top: 25%;
+    right: 5px;
+  }
+}
+
+.nav-link:hover {
+  background: darken(rgba(255, 255, 255, 0.1), 30) !important;
+}

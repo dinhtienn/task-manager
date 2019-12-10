@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 3 | Log in</title>
+    <title>TaskManagement | Đăng nhập</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,7 +35,7 @@
                         <input type="text" name="username" class="form-control" placeholder="Tên đăng nhập">
                         <div class="input-group-append">
                             <div class="input-group-text">
-                                <span class="fas fa-envelope"></span>
+                                <span class="fas fa-user"></span>
                             </div>
                         </div>
                     </div>
@@ -80,9 +80,7 @@
     <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
     <script src="{{ asset('/js/app.js') }}"></script>
-    <script src="{{ asset('/js/custom.js') }}"></script>
 
     <script src="/js/app.js"></script>
-    <script src="/js/custom.js"></script>
 </body>
 </html>

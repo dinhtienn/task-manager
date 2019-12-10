@@ -93,11 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var account = searchObj('?', 'account');
-
-function searchObj(character, objName) {
-  return window.location.href.split(character + objName + '=')[window.location.href.split(character + objName + '=').length - 1].split('&')[0];
-}
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/Users/hippp/Documents/Project/Study/TaskManagement/resources/js/custom.js'");
 
 /***/ }),
 
