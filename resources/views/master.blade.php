@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="/css/app.css">
     @yield('css')
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini layout-navbar-fixed layout-fixed">
     <div class="wrapper">
 
         <!-- Navbar -->

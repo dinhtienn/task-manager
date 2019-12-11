@@ -15,6 +15,7 @@ class EmployeeController extends Controller
 
     public function homepage()
     {
+        dd($this->account);
         $account = $this->account;
         return view('employee.home', compact('account'));
     }
