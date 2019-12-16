@@ -19,16 +19,16 @@ class EmployeeController extends Controller
         return view('employee.home', compact('account'));
     }
 
+    public function profile()
+    {
+        $account = $this->account;
+        return view('employee.profile', compact('account'));
+    }
+
     public function job()
     {
         $account = $this->account;
         return view('employee.job', compact('account'));
-    }
-
-    public function history()
-    {
-        $account = $this->account;
-        return view('employee.history', compact('account'));
     }
 
     public function punish()
@@ -41,5 +41,17 @@ class EmployeeController extends Controller
     {
         $account = $this->account;
         return view('employee.kpi', compact('account'));
+    }
+
+    public function checkin()
+    {
+        $account = $this->account;
+        return view('employee.checkin', compact('account'));
+    }
+
+    public function salary()
+    {
+        $account = $this->account;
+        return view('employee.salary', compact('account'));
     }
 }

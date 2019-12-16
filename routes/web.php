@@ -35,17 +35,18 @@ Route::get('/manager/homepage', [
     'uses' => 'ManagerController@homepage'
 ]);
 
+
 Route::get('/employee/homepage', [
     'as' => 'employee.homepage',
     'uses' => 'EmployeeController@homepage'
 ]);
+Route::get('/employee/profile', [
+    'as' => 'employee.profile',
+    'uses' => 'EmployeeController@profile'
+]);
 Route::get('/employee/job', [
     'as' => 'employee.job',
     'uses' => 'EmployeeController@job'
-]);
-Route::get('/employee/history', [
-    'as' => 'employee.history',
-    'uses' => 'EmployeeController@history'
 ]);
 Route::get('/employee/punish', [
     'as' => 'employee.punish',
@@ -54,4 +55,12 @@ Route::get('/employee/punish', [
 Route::get('/employee/kpi', [
     'as' => 'employee.kpi',
     'uses' => 'EmployeeController@kpi'
+]);
+Route::get('/employee/checkin', [
+    'as' => 'employee.checkin',
+    'uses' => 'EmployeeController@checkin'
+]);
+Route::get('/employee/salary', [
+    'as' => 'employee.salary',
+    'uses' => 'EmployeeController@salary'
 ]);
