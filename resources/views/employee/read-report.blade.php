@@ -225,7 +225,7 @@
                             <!-- this row will not appear when printing -->
                             <div class="row no-print">
                                 <div class="col-12">
-                                    <a href="/resources/views/employee/report.html?_ijt=3sjlh4dbu1lm3015d4q3gttl4m" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                                    <a href="https://dinhtienn.github.io/task-manager-report/employee-report-job.html" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
                                 </div>
                             </div>
                         </div>
