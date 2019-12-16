@@ -57043,3 +57043,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 .nav-link:hover {
   background: rgba(179, 179, 179, 0.1) !important;
 }
+
+.nav-link.active:hover {
+  background: #0067d4 !important;
+}

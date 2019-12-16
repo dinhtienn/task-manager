@@ -49,13 +49,13 @@
                             KPI
                         </p>
                     </a>
-                    <a href="{{ route('employee.checkin') }}" class="nav-link checkin-link">
+                    <a href="#" class="nav-link checkin-link btn-dang-phat-trien">
                         <i class="nav-icon fas fa-check-circle"></i>
                         <p>
                             Bảng công
                         </p>
                     </a>
-                    <a href="{{ route('employee.salary') }}" class="nav-link salary-link">
+                    <a href="#" class="nav-link salary-link btn-dang-phat-trien">
                         <i class="nav-icon fas fa-money-check"></i>
                         <p>
                             Bảng lương

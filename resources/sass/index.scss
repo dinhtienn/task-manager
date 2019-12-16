@@ -12,3 +12,7 @@
 .nav-link:hover {
   background: darken(rgba(255, 255, 255, 0.1), 30) !important;
 }
+
+.nav-link.active:hover {
+  background: darken(#0069d9, 1) !important;
+}

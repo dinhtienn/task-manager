@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+    <title>Nhân viên</title>
+@endsection
+
 @section('css')
     <style>
         {!! file_get_contents(public_path("/css/employee.css")) !!}

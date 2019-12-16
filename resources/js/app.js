@@ -9,3 +9,11 @@ function searchObj(character, objName) {
 $('#btn-logout').click(function() {
     window.location.href = '/';
 });
+
+$('.btn-dang-phat-trien').click(() => {
+    Swal.fire(
+        'Sorry!',
+        'Tính năng đang trong quá trình phát triển!',
+        'warning'
+    );
+});

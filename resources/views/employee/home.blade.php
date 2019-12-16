@@ -7,7 +7,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Nhân viên</h1>
+                        <h1 class="m-0 text-dark">Dashboard</h1>
                     </div><!-- /.col -->
                     <div class="col-sm-6">
 
@@ -173,7 +173,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Bảng chấm công hàng ngày</p>
-                                <a href="{{ route('employee.checkin') }}" class="btn btn-sm btn-outline-dark">Xem ngay</a>
+                                <a href="#" class="btn btn-sm btn-outline-dark btn-dang-phat-trien">Xem ngay</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Thông tin bảng lương hàng tháng</p>
-                                <a href="{{ route('employee.salary') }}" class="btn btn-sm btn-outline-success">Xem ngay</a>
+                                <a href="#" class="btn btn-sm btn-outline-success btn-dang-phat-trien">Xem ngay</a>
                             </div>
                         </div>
                     </div>

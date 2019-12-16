@@ -43,15 +43,27 @@ class EmployeeController extends Controller
         return view('employee.kpi', compact('account'));
     }
 
-    public function checkin()
+    public function reportDaily()
     {
         $account = $this->account;
-        return view('employee.checkin', compact('account'));
+        return view('employee.report-daily', compact('account'));
     }
 
-    public function salary()
+    public function doneJob()
     {
         $account = $this->account;
-        return view('employee.salary', compact('account'));
+        return view('employee.done-job', compact('account'));
+    }
+
+    public function editJob()
+    {
+        $account = $this->account;
+        return view('employee.edit-job', compact('account'));
+    }
+
+    public function readReport()
+    {
+        $account = $this->account;
+        return view('employee.read-report', compact('account'));
     }
 }

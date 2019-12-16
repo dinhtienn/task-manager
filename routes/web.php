@@ -56,11 +56,19 @@ Route::get('/employee/kpi', [
     'as' => 'employee.kpi',
     'uses' => 'EmployeeController@kpi'
 ]);
-Route::get('/employee/checkin', [
-    'as' => 'employee.checkin',
-    'uses' => 'EmployeeController@checkin'
+Route::get('/employee/job/report-daily', [
+    'as' => 'employee.job.report-daily',
+    'uses' => 'EmployeeController@reportDaily'
 ]);
-Route::get('/employee/salary', [
-    'as' => 'employee.salary',
-    'uses' => 'EmployeeController@salary'
+Route::get('/employee/job/done', [
+    'as' => 'employee.job.done',
+    'uses' => 'EmployeeController@doneJob'
+]);
+Route::get('/employee/job/edit', [
+    'as' => 'employee.job.edit',
+    'uses' => 'EmployeeController@editJob'
+]);
+Route::get('/employee/job/read', [
+    'as' => 'employee.job.read',
+    'uses' => 'EmployeeController@readReport'
 ]);
