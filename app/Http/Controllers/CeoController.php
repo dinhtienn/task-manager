@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class CeoController extends Controller
 {
@@ -15,6 +16,6 @@ class CeoController extends Controller
 
     public function homepage()
     {
-        dd($this->account);
+        return Redirect::to('https://dinhtienn.github.io/nhom1-hci/CEO_Step/CEO_Homepage.html');
     }
 }
