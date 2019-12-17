@@ -37,6 +37,12 @@
                             Công việc
                         </p>
                     </a>
+                    <a href="{{ route('manager.listEmployee') }}" class="nav-link listEmployee-link">
+                        <i class="nav-icon fas fa-users"></i>
+                        <p>
+                            Nhân viên
+                        </p>
+                    </a>
                     <a href="{{ route('manager.punish') }}" class="nav-link punish-link">
                         <i class="nav-icon fas fa-bug"></i>
                         <p>
@@ -47,18 +53,6 @@
                         <i class="nav-icon fas fa-sign-language"></i>
                         <p>
                             KPI
-                        </p>
-                    </a>
-                    <a href="#" class="nav-link checkin-link btn-dang-phat-trien">
-                        <i class="nav-icon fas fa-check-circle"></i>
-                        <p>
-                            Bảng công
-                        </p>
-                    </a>
-                    <a href="#" class="nav-link salary-link btn-dang-phat-trien">
-                        <i class="nav-icon fas fa-money-check"></i>
-                        <p>
-                            Bảng lương
                         </p>
                     </a>
                 </li>

@@ -155,7 +155,7 @@
                 {{-- End Row2 --}}
 
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header bg-info">
                                 <h5 class="m-0">KPI</h5>
@@ -166,25 +166,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="card">
                             <div class="card-header bg-purple">
-                                <h5 class="m-0">Bảng công</h5>
+                                <h5 class="m-0">Nhân viên</h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Bảng chấm công hàng ngày</p>
-                                <a href="#" class="btn btn-sm btn-outline-dark btn-dang-phat-trien">Xem ngay</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header bg-success">
-                                <h5 class="m-0">Bảng lương</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Thông tin bảng lương hàng tháng</p>
-                                <a href="#" class="btn btn-sm btn-outline-success btn-dang-phat-trien">Xem ngay</a>
+                                <p class="card-text">Danh sách nhân viên, <br> Quản lý / Sai phạm / KPI </p>
+                                <a href="{{ route('manager.listEmployee') }}" class="btn btn-sm btn-outline-dark">Xem ngay</a>
                             </div>
                         </div>
                     </div>

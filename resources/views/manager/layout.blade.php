@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+    <title>Trưởng phòng</title>
+@endsection
+
 @section('css')
     <style>
         {!! file_get_contents(public_path("/css/manager.css")) !!}
@@ -25,6 +29,8 @@
             $('.punish-link').addClass('active');
         } else if (url.includes('kpi')) {
             $('.kpi-link').addClass('active');
+        } else if (url.includes('listEmployee')) {
+            $('.listEmployee-link').addClass('active');
         }
     </script>
     @stack('after-js')
