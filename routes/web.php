@@ -77,6 +77,10 @@ Route::get('/manager/job/readDailyReport', [
     'as' => 'manager.job.readDailyReport',
     'uses' => 'ManagerController@readDailyReport'
 ]);
+Route::get('/manager/job/readFinalReport', [
+    'as' => 'manager.job.readFinalReport',
+    'uses' => 'ManagerController@readFinalReport'
+]);
 
 
 

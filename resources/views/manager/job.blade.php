@@ -22,59 +22,157 @@
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="card-title">Báo cáo hoàn thành</h3>
+                                <h3 class="card-title">Công việc được giao</h3>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body p-0">
-                                <table class="table table-striped">
+                                <table class="table table-condensed">
                                     <thead>
                                     <tr>
                                         <th style="width: 10px">#</th>
-                                        <th>Task</th>
-                                        <th>Progress</th>
-                                        <th style="width: 40px">Label</th>
+                                        <th>Tên công việc</th>
+                                        <th style="width: 150px">Thời hạn</th>
+                                        <th>Mô tả</th>
+                                        <th style="width: 150px">Hành động</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td>1.</td>
-                                        <td>Update software</td>
+                                        <td>Dán nhãn bao bì thuốc đau đầu XYZ</td>
                                         <td>
-                                            <div class="progress progress-xs">
-                                                <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
-                                            </div>
+                                            <span>01/01/2020</span>
                                         </td>
-                                        <td><span class="badge bg-danger">55%</span></td>
+                                        <td>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda dolorem expedita facilis, in natus officia pariatur perspiciatis, provident quibusdam quidem quis saepe soluta suscipit voluptatem. Eaque in maxime quia.</span>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                </select>
+                                            </div>
+                                            <button class="btn btn-sm btn-outline-warning btn-giaoviec">Giao</button>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td>2.</td>
-                                        <td>Clean database</td>
+                                        <td>Kiểm duyệt nhập kho thuốc ABC</td>
                                         <td>
-                                            <div class="progress progress-xs">
-                                                <div class="progress-bar bg-warning" style="width: 70%"></div>
-                                            </div>
+                                            <span>01/01/2020</span>
                                         </td>
-                                        <td><span class="badge bg-warning">70%</span></td>
+                                        <td>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda dolorem expedita facilis, in natus officia pariatur perspiciatis, provident quibusdam quidem quis saepe soluta suscipit voluptatem. Eaque in maxime quia.</span>
+                                        </td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                    <option>Nguyễn Hữu kHẢI</option>
+                                                </select>
+                                            </div>
+                                            <button class="btn btn-sm btn-outline-warning btn-giaoviec">Giao</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Đề xuất gia hạn của nhân viên</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body p-0">
+                                <table class="table table-condensed">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Tên công việc</th>
+                                        <th style="width: 150px">Thời hạn</th>
+                                        <th>Nguyên nhân</th>
+                                        <th style="width: 150px">Hành động</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Dán nhãn bao bì thuốc đau đầu XYZ</td>
+                                        <td>
+                                            <span class="text-success">Còn 5 ngày</span>
+                                        </td>
+                                        <td>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda dolorem expedita facilis, in natus officia pariatur perspiciatis, provident quibusdam quidem quis saepe soluta suscipit voluptatem. Eaque in maxime quia.</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-outline-danger mb-2 btn-success-giahan">Đồng ý</button>
+                                            <button class="btn btn-sm btn-outline-warning btn-deny-giahan">Từ chối</button>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>3.</td>
-                                        <td>Cron job running</td>
+                                        <td>2.</td>
+                                        <td>Kiểm duyệt nhập kho thuốc ABC</td>
                                         <td>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar bg-primary" style="width: 30%"></div>
-                                            </div>
+                                            <span class="text-warning">Còn 2 ngày</span>
                                         </td>
-                                        <td><span class="badge bg-primary">30%</span></td>
+                                        <td>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda dolorem expedita facilis, in natus officia pariatur perspiciatis, provident quibusdam quidem quis saepe soluta suscipit voluptatem. Eaque in maxime quia.</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-outline-danger mb-2 btn-success-giahan">Đồng ý</button>
+                                            <button class="btn btn-sm btn-outline-warning btn-deny-giahan">Từ chối</button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.card-body -->
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Báo cáo hoàn thành</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body p-0">
+                                <table class="table table-condensed">
+                                    <thead>
+                                    <tr>
+                                        <th style="width: 10px">#</th>
+                                        <th>Tên công việc</th>
+                                        <th>Thời hạn</th>
+                                        <th>Hành động</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Dán nhãn bao bì thuốc đau đầu XYZ</td>
+                                        <td>
+                                            <span class="text-success">Còn 5 ngày</span>
+                                        </td>
+                                        <td>
+                                            <button class="btn btn-sm btn-outline-success btn-read-report-final">Xem báo cáo</button>
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>4.</td>
-                                        <td>Fix and squish bugs</td>
+                                        <td>2.</td>
+                                        <td>Kiểm duyệt nhập kho thuốc ABC</td>
                                         <td>
-                                            <div class="progress progress-xs progress-striped active">
-                                                <div class="progress-bar bg-success" style="width: 90%"></div>
-                                            </div>
+                                            <span class="text-warning">Còn 2 ngày</span>
                                         </td>
-                                        <td><span class="badge bg-success">90%</span></td>
+                                        <td>
+                                            <button class="btn btn-sm btn-outline-warning btn-read-report-final">Xem báo cáo</button>
+                                        </td>
                                     </tr>
                                     </tbody>
                                 </table>
@@ -559,6 +657,32 @@
 
         $('.btn-read-report').click(() => {
             window.location.href = "{{ route('manager.job.read') }}";
+        });
+
+        $('.btn-read-report-final').click(() => {
+            window.location.href = "{{ route('manager.job.readFinalReport') }}";
+        });
+
+        $('.btn-success-giahan').click(() => {
+            Swal.fire(
+                'Success!',
+                'Đã đồng ý gia hạn cho công việc này!',
+                'success'
+            )
+        });
+        $('.btn-deny-giahan').click(() => {
+            Swal.fire(
+                'Success!',
+                'Đã từ chối gia hạn cho công việc này!',
+                'success'
+            )
+        });
+        $('.btn-giaoviec').click(() => {
+            Swal.fire(
+                'Success!',
+                'Đã giao việc cho Nguyễn Hữu Khải!',
+                'success'
+            )
         });
     </script>
 @endpush

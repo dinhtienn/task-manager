@@ -78,4 +78,10 @@ class ManagerController extends Controller
         $account = $this->account;
         return view('manager.read-daily-report', compact('account'));
     }
+
+    public function readFinalReport()
+    {
+        $account = $this->account;
+        return view('manager.read-final-report', compact('account'));
+    }
 }
