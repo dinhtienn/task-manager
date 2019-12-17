@@ -19,21 +19,45 @@ Route::get('/', [
     'as' => 'auth.login',
     'uses' => 'AuthController@showLogin'
 ]);
-
 Route::post('/auth/login', [
     'as' => 'auth.login',
     'uses' => 'AuthController@postLogin'
 ]);
+
+
 
 Route::get('/ceo/homepage', [
     'as' => 'ceo.homepage',
     'uses' => 'CeoController@homepage'
 ]);
 
+
+
 Route::get('/manager/homepage', [
     'as' => 'manager.homepage',
     'uses' => 'ManagerController@homepage'
 ]);
+Route::get('/manager/profile', [
+    'as' => 'manager.profile',
+    'uses' => 'ManagerController@profile'
+]);
+Route::get('/manager/listEmployee', [
+    'as' => 'manager.listEmployee',
+    'uses' => 'ManagerController@listEmployee'
+]);
+Route::get('/manager/job', [
+    'as' => 'manager.job',
+    'uses' => 'ManagerController@job'
+]);
+Route::get('/manager/punish', [
+    'as' => 'manager.punish',
+    'uses' => 'ManagerController@punish'
+]);
+Route::get('/manager/kpi', [
+    'as' => 'manager.kpi',
+    'uses' => 'ManagerController@kpi'
+]);
+
 
 
 Route::get('/employee/homepage', [

@@ -29,10 +29,6 @@
             $('.punish-link').addClass('active');
         } else if (url.includes('kpi')) {
             $('.kpi-link').addClass('active');
-        } else if (url.includes('checkin')) {
-            $('.checkin-link').addClass('active');
-        } else if (url.includes('salary')) {
-            $('.salary-link').addClass('active');
         }
     </script>
     @stack('after-js')

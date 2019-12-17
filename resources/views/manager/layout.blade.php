@@ -15,5 +15,17 @@
 @endsection
 
 @push('after-js')
+    <script>
+        const url = window.location.href;
+        if (url.includes('job')) {
+            $('.job-link').addClass('active');
+        } else if (url.includes('homepage')) {
+            $('.homepage-link').addClass('active');
+        } else if (url.includes('punish')) {
+            $('.punish-link').addClass('active');
+        } else if (url.includes('kpi')) {
+            $('.kpi-link').addClass('active');
+        }
+    </script>
     @stack('after-js')
 @endpush
