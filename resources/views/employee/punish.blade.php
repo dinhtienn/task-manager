@@ -22,7 +22,7 @@
             <!-- Default box -->
             <div class="card">
                 <div class="card-header bg-info">
-                    <h3 class="card-title">Rule</h3>
+                    <h3 class="card-title">Cá nhân</h3>
 
                     <div class="card-tools">
                         <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -90,7 +90,7 @@
                                 </div>
                                 <!-- /.timeline-label -->
                                 <div>
-                                    <i class="fa fa-camera bg-purple"></i>
+                                    <i class="fa fa-user bg-warning"></i>
                                     <div class="timeline-item">
                                         <h3 class="timeline-header"><a href="#">Chu Ngọc Minh</a></h3>
                                         <div class="timeline-body">

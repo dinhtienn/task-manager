@@ -48,4 +48,10 @@ class ManagerController extends Controller
         $account = $this->account;
         return view('manager.kpi', compact('account'));
     }
+
+    public function employeeProfile()
+    {
+        $account = $this->account;
+        return view('manager.employee-profile', compact('account'));
+    }
 }

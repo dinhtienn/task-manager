@@ -57,6 +57,10 @@ Route::get('/manager/kpi', [
     'as' => 'manager.kpi',
     'uses' => 'ManagerController@kpi'
 ]);
+Route::get('/manager/listEmployee/employeeProfile', [
+    'as' => 'manager.employeeProfile',
+    'uses' => 'ManagerController@employeeProfile'
+]);
 
 
 
