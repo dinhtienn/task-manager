@@ -43,7 +43,7 @@ class AuthController extends Controller
         } elseif ($username == 'employee' && $password == 'nhom1') {
             return redirect()->route('employee.homepage');
         } elseif ($username == 'home' && $password == 'nhom2') {
-            return Redirect::to('192.168.43.110:8080/HCI');
+            return Redirect::to('http://192.168.43.110:8080/HCI');
         }  elseif ($username == 'home' && $password == 'nhom3') {
             return Redirect::to('https://dinhtienn.github.io/nhom3-hci/examples/dashboard.html');
         } elseif ($username == 'ceo' && $password == 'nhom4') {
@@ -75,5 +75,5 @@ class AuthController extends Controller
         }
         $error = 'Tên tài khoản hoặc mật khẩu chưa chính xác, vui lòng kiểm tra lại!';
         return view('login', compact('error'));
-    }   
+    }
 }
