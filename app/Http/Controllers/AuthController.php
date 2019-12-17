@@ -70,7 +70,7 @@ class AuthController extends Controller
         } elseif ($username == 'home' && $password == 'nhom9') {
             return Redirect::to('https://dinhtienn.github.io/nhom9-hci/tongcongty.html');
         } elseif ($username == 'home' && $password == 'nhom10') {
-            return Redirect::to('https://dinhtienn.github.io/nhom10-hci/a1-project');
+            return Redirect::to('https://dinhtienn.github.io/nhom10-hci/ceo_KPI_R&D.html');
         } elseif ($username == 'home' && $password == 'nhom11') {
             return Redirect::to('https://dinhtienn.github.io/nhom11-hci/custommer.html');
         }
