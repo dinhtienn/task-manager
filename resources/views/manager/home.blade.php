@@ -117,7 +117,7 @@
 
                                 <h3 class="profile-username text-center">Chu Ngọc Minh</h3>
 
-                                <p class="text-muted text-center">Chuyên viên kiểm duyệt</p>
+                                <p class="text-muted text-center">Trưởng phòng đảm bảo chất lượng sản phẩm</p>
 
                                 <a href="{{ route('manager.profile') }}" class="btn btn-secondary btn-block"><b>Chỉnh sửa thông tin</b></a>
                             </div>
