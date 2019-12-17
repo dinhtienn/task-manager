@@ -61,6 +61,22 @@ Route::get('/manager/listEmployee/employeeProfile', [
     'as' => 'manager.employeeProfile',
     'uses' => 'ManagerController@employeeProfile'
 ]);
+Route::get('/manager/punish/employee', [
+    'as' => 'manager.punish.employee',
+    'uses' => 'ManagerController@punishEmployee'
+]);
+Route::get('/manager/job/readReport', [
+    'as' => 'manager.job.read',
+    'uses' => 'ManagerController@readReport'
+]);
+Route::get('/manager/job/edit', [
+    'as' => 'manager.job.edit',
+    'uses' => 'ManagerController@editJob'
+]);
+Route::get('/manager/job/readDailyReport', [
+    'as' => 'manager.job.readDailyReport',
+    'uses' => 'ManagerController@readDailyReport'
+]);
 
 
 

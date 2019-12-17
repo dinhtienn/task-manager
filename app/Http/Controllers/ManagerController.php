@@ -54,4 +54,28 @@ class ManagerController extends Controller
         $account = $this->account;
         return view('manager.employee-profile', compact('account'));
     }
+
+    public function punishEmployee()
+    {
+        $account = $this->account;
+        return view('manager.punish-employee', compact('account'));
+    }
+
+    public function readReport()
+    {
+        $account = $this->account;
+        return view('manager.read-report', compact('account'));
+    }
+
+    public function editJob()
+    {
+        $account = $this->account;
+        return view('manager.edit-job', compact('account'));
+    }
+
+    public function readDailyReport()
+    {
+        $account = $this->account;
+        return view('manager.read-daily-report', compact('account'));
+    }
 }

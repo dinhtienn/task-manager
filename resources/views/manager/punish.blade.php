@@ -61,7 +61,11 @@
 
             <section class="content">
                 <div class="container-fluid">
-
+                    <div class="row mb-3">
+                        <div class="col-3">
+                            <button type="button" class="btn btn-outline-warning btn-punish-employee">Quyết định xử phạt</button>
+                        </div>
+                    </div>
                     <!-- Timelime example  -->
                     <div class="row">
                         <div class="col-md-12">
@@ -127,3 +131,11 @@
         <!-- /.content -->
     </div>
 @endsection
+
+@push('after-js')
+    <script>
+        $('.btn-punish-employee').click(() => {
+            window.location.href = "{{ route('manager.punish.employee') }}";
+        });
+    </script>
+@endpush
