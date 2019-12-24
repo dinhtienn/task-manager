@@ -37,8 +37,9 @@ class AuthController extends Controller
         // $error = 'Tên tài khoản chưa chính xác, vui lòng kiểm tra lại!';
         // return view('login', compact('error'));
         if ($username == 'ceo' && $password == 'nhom1') {
-            return Redirect::to('https://dinhtienn.github.io/nhom1-hci/CEO_Step/CEO_Homepage.html');
-//            return redirect()->route('ceo.homepage');
+            return redirect()->route('manager.homepage');
+            // return Redirect::to('https://dinhtienn.github.io/nhom1-hci/CEO_Step/CEO_Homepage.html');
+            // return redirect()->route('ceo.homepage');
         } elseif ($username == 'manager' && $password == 'nhom1') {
             return redirect()->route('manager.homepage');
         } elseif ($username == 'employee' && $password == 'nhom1') {
